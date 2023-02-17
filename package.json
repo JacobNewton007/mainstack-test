@@ -6,7 +6,7 @@
     "start": "node ./build/index.js",
     "dev:mac": "cross-env NODE_ENV=development DEBUG=mainstack-api nodemon",
     "dev:wins": "cross-env NODE_ENV=development & set DEBUG=mainstack-api & nodemon",
-    "build": "cross-env NODE_ENV=production tsc",
+    "build": "tsc",
     "postbuild": "echo \"Build finished. App live \"",
     "lint": "eslint src/**/*.ts"
     
